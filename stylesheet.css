@@ -1,9 +1,15 @@
 *{
 	background-color: #eee;
 }
+#castle{
+	height: 300px;
+	width: 450px;
+	margin: auto;
+	display: block;
+}
 header{
-	height: 120px;
-	margin: -5px -5px -5px 0px;
+	height: 100px;
+	margin-top: 40px;
 	color: #888;
 	font-family: Lao UI, sans-serif;
 	font-size: 80px;
@@ -17,4 +23,33 @@ header{
 	color: #555;
 	margin: auto;
 	width: 700px;
+	height: 200px;
+}
+.social-media{
+	height: 50px;
+	width: 50px;
+	display: block;
+	float: left;
+	padding: 10px;
+	position: relative;
+}
+#icons{
+	width: 25%;
+	margin: 0 auto;
+}
+span{
+	color: white;
+	font-family: Lao UI;
+	background-color: #666;
+	font-size: 20px;
+	color: white;
+}
+li{
+	display: inline;
+	padding: 25px;
+	text-decoration: none;
+}
+li:hover,a:hover{
+	color: #666;
+	cursor: pointer;
 }
