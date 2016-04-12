@@ -14,7 +14,7 @@ header {
     animation-name: dropHeader;
     animation-iteration-count: 1;
     animation-timing-function: ease-in;
-    animation-duration: 1s;
+    animation-duration: 2s;
 }
 /**@-moz-keyframes dropHeader {
     0% {
@@ -62,7 +62,7 @@ header {
     animation-name: date;
     animation-iteration-count: 1;
     animation-timing-function: ease-in;
-    animation-duration: 1s;
+    animation-duration:2s;
 }
 /**@-moz-keyframes dropHeader {
     0% {
@@ -104,7 +104,7 @@ h2:nth-child(n), p:nth-child(n) {
     animation-name: moveContnent;
     animation-iteration-count: 1;
     animation-timing-function: ease-in;
-    animation-duration: 1s;
+    animation-duration: 2s;
 }
 /**@-moz-keyframes dropHeader {
     0% {
@@ -151,7 +151,7 @@ h2:nth-child(2n), p:nth-child(2n) {
     animation-name: moveContnent2;
     animation-iteration-count: 1;
     animation-timing-function: ease-in;
-    animation-duration: 1s;
+    animation-duration: 2s;
 }
 /**@-moz-keyframes dropHeader {
     0% {
