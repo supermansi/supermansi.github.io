@@ -1,4 +1,3 @@
-
 header {
 
     /**-moz-animation-name: dropHeader;
@@ -14,7 +13,7 @@ header {
     animation-name: dropHeader;
     animation-iteration-count: 1;
     animation-timing-function: ease-in;
-    animation-duration: 1s;
+    animation-duration: 1.5s;
 }
 /**@-moz-keyframes dropHeader {
     0% {
@@ -47,7 +46,7 @@ header {
     }
 }
 
-.date {
+.date, article {
 
     /**-moz-animation-name: dropHeader;
     -moz-animation-iteration-count: 1;
@@ -62,7 +61,7 @@ header {
     animation-name: date;
     animation-iteration-count: 1;
     animation-timing-function: ease-in;
-    animation-duration: 1s;
+    animation-duration: 1.5s;
 }
 /**@-moz-keyframes dropHeader {
     0% {
@@ -88,7 +87,7 @@ header {
         transform: scale(1);
     }
 }
-
+/*
 h2:nth-child(n), p:nth-child(n) {
 
     /**-moz-animation-name: dropHeader;
@@ -99,7 +98,7 @@ h2:nth-child(n), p:nth-child(n) {
     -webkit-animation-name: dropHeader;
     -webkit-animation-iteration-count: 1;
     -webkit-animation-timing-function: ease-in;
-    -webkit-animation-duration: 0.3s;*/
+    -webkit-animation-duration: 0.3s;
 
     animation-name: moveContnent;
     animation-iteration-count: 1;
@@ -121,7 +120,7 @@ h2:nth-child(n), p:nth-child(n) {
     100% {
         -webkit-transform: translateY(0);
     }
-}*/
+}
 @keyframes moveContnent {
     0% {
         transform: translateX(-40px);
@@ -146,7 +145,7 @@ h2:nth-child(2n), p:nth-child(2n) {
     -webkit-animation-name: dropHeader;
     -webkit-animation-iteration-count: 1;
     -webkit-animation-timing-function: ease-in;
-    -webkit-animation-duration: 0.3s;*/
+    -webkit-animation-duration: 0.3s;
 
     animation-name: moveContnent2;
     animation-iteration-count: 1;
@@ -168,7 +167,7 @@ h2:nth-child(2n), p:nth-child(2n) {
     100% {
         -webkit-transform: translateY(0);
     }
-}*/
+}
 @keyframes moveContnent2 {
     0% {
         transform: translateX(40px);
@@ -183,3 +182,4 @@ h2:nth-child(2n), p:nth-child(2n) {
         transform: translateX(0);
     }
 }
+*/
