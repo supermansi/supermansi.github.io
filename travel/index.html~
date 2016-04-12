@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<head>
+<title>Travel</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" type="text/css" href="animate.css">
+<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+</head>
+<body>
+<header>Travelougue</header>
+<section id="timeline">
+  <article>
+    <div class="inner">
+      <span class="date">
+        <span class="year">1997</span>
+        <span class="month">Feb</span>
+      </span>
+      <h2>United States of America</h2>
+      <p>Cities:<br>
+        Houston, TX<br>Orlando, FL<br>Chicago, IL
+      </p>
+    </div>
+  </article>
+  <article>
+    <div class="inner">
+      <span class="date">
+        <span class="year">1999</span>
+        <span class="month">Sep</span>
+      </span>
+      <h2>Singapore</h2>
+      <p>Singapore</p>
+    </div>
+  </article>
+  <article>
+    <div class="inner">
+      <span class="date">
+        <span class="year">2000</span>
+        <span class="month">Jul</span>
+      </span>
+      <h2>Mauritius</h2>
+      <p>Mauritius</p>
+    </div>
+  </article>
+  <article>
+    <div class="inner">
+      <span class="date">
+        <span class="year">2002</span>
+        <span class="month">Sep</span>
+      </span>
+      <h2>Singapore</h2>
+      <p>Singapore</p>
+    </div>
+  </article>
+  <article>
+    <div class="inner">
+      <span class="date">
+        <span class="year">2003</span>
+        <span class="month">Oct</span>
+      </span>
+      <h2>Malaysia</h2>
+      <p>Kuala Lampur<br>Genting</p>
+    </div>
+  </article>
+  <article>
+    <div class="inner">
+      <span class="date">
+        <span class="year">2003</span>
+        <span class="month">Nov</span>
+      </span>
+      <h2>Australia</h2>
+      <p>Cities:<br>
+        Syndey, NSW
+      </p>
+    </div>
+  </article>
+  <article>
+    <div class="inner">
+      <span class="date">
+        <span class="year">2007</span>
+        <span class="month">May</span>
+      </span>
+      <h2>United States of America</h2>
+      <p>Cities:<br>
+        Chicago, IL<br>
+        Houston, TX<br>
+        New Jersey, NY<br>
+        New York City, NY<br>
+        Washington DC, DC<br>
+        Atlantic City, NY<br>
+        San Antonio, TX<br>
+      </p>
+    </div>
+  </article>
+  <article>
+    <div class="inner">
+      <span class="date">
+        <span class="year">2009</span>
+        <span class="month">May</span>
+      </span>
+      <h2>Switzerland</h2>
+      <p>Zurich<br>Interlaken</p>
+    </div>
+  </article>
+  <article>
+    <div class="inner">
+      <span class="date">
+        <span class="year">2009</span>
+        <span class="month">May</span>
+      </span>
+      <h2>France</h2>
+      <p>Paris<br>Versailles</p>
+    </div>
+  </article>
+  <article>
+    <div class="inner">
+      <span class="date">
+        <span class="year">2011</span>
+        <span class="month">Jul</span>
+      </span>
+      <h2>Singapore</h2>
+      <p>Singapore</p>
+    </div>
+  </article>
+  <article>
+    <div class="inner">
+      <span class="date">
+        <span class="year">2011</span>
+        <span class="month">Oct</span>
+      </span>
+      <h2>Canada</h2>
+      <p>Cities:<br>
+        Niagra Falls, OR<br>
+        Missisauga, OR<br>
+        Toronto, OR<br>
+      </p>
+    </div>
+  </article>
+  <article>
+    <div class="inner">
+      <span class="date">
+        <span class="year">2011</span>
+        <span class="month">Oct</span>
+      </span>
+      <h2>United States of America</h2>
+      <p>Cities:<br>
+        Houston, TX<br>
+        San Antonio, TX<br>
+        Chicago, IL
+      </p>
+    </div>
+  </article>
+  <article>
+    <div class="inner">
+      <span class="date">
+        <span class="year">2013</span>
+        <span class="month">May</span>
+      </span>
+      <h2>Thailand</h2>
+      <p>Cities:<br>
+        Pattaya<br>Bangkok<br>
+      </p>
+    </div>
+  </article>
+  <article>
+    <div class="inner">
+      <span class="date">
+        <span class="year">2014</span>
+        <span class="month">June</span>
+      </span>
+      <h2>Australia</h2>
+      <p>Cities:<br>
+        Sydney, NSW<br>
+        Kiama, NSW<br>
+        Woolongong, NSW<br>
+        Canberra, NSW<br>
+      </p>
+    </div>
+  </article>
+  <article>
+    <div class="inner">
+      <span class="date">
+        <span class="year">2015</span>
+        <span class="month">May</span>
+      </span>
+      <h2>United States of America</h2>
+      <p>Cities:<br>
+        New York City, NY<br>
+        Los Angeles, CA<br>
+        Santa Monica, CA<br>
+        San Jose, CA<br>
+        San Francisco, CA<br>
+        Houston, TX
+      </p>
+    </div>
+  </article>
+  <article>
+    <div class="inner">
+      <span class="date">
+        <span class="year">Next</span>
+        <span class="month">?</span>
+      </span>
+      <!--<h2>Singapore</h2>
+      <p>Singapore</p>-->
+    </div>
+  </article>
+</section>
+<footer>Made with <span id="heart"><3</span> by <a href="http://supermansi.github.io">Mansi Jain</a></footer>
+</body>
+</html>
