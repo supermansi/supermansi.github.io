@@ -1,0 +1,16 @@
+.newscalendarTooltip {
+  display: none;
+}
+
+.tx-ttnews .linked_day.newscalendar-tip-selector {
+  background-color:#fff500;
+  color: #000;
+}
+.tx-ttnews .linked_day:link,
+.tx-ttnews .linked_day:hover,
+.tx-ttnews .linked_day:visited{
+  color: #fff;
+  background-color:#000;
+}
+
+
