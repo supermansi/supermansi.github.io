@@ -1,0 +1,96 @@
+html{
+	color: white;
+	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+body, *{
+	font-family: 'Poppins', 'sans-serif';
+	background: #000;
+}
+
+.jumbotron {
+	height: 100vh;
+	background-color: #000 !important;
+}
+
+.arrow{
+	margin-left:50%;
+	margin-top: 15%;
+	color: #fff;
+	font-size: 3em;
+}
+
+.arrow:hover{
+	color: #0ff;
+	cursor: pointer;
+}
+
+.container {
+
+	text-align: center;
+	color: #fff;
+}
+
+.title{
+	margin-top: 10%;
+}
+
+.name {
+	font-size: 5em;
+	font-family: 'Pacifico', 'cursive';
+	color: #00ffff;
+}
+
+.subtitle {
+	font-size: 2.2em;
+}
+
+.navbar {
+	margin-bottom: 0px;	
+	margin-top: 0px;
+}
+
+.nav-item {
+	margin: 5px;
+	padding: 10px;
+}
+
+.content {
+	text-align: center;
+	padding: 20%;
+}
+
+/** Scroll Bar */
+
+/* width */
+::-webkit-scrollbar {
+    width: 20px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 2px #bbb; 
+    border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #00ffff; 
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #0cc; 
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
