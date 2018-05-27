@@ -1,23 +1,15 @@
-html{
-	color: white;
-	font-size: 16px;
-	font-family: 'Open Sans', sans-serif;
-}
-
 body, *{
 	font-family: 'Poppins', 'sans-serif';
-	background: #000;
+	font-size: 16px;
 }
 
 .jumbotron {
 	height: 100vh;
-	background-color: #000 !important;
 }
 
 .arrow{
 	margin-left:50%;
-	margin-top: 15%;
-	color: #fff;
+	margin-top: 10%;
 	font-size: 3em;
 }
 
@@ -26,18 +18,13 @@ body, *{
 	cursor: pointer;
 }
 
-.container {
-
-	text-align: center;
-	color: #fff;
-}
-
 .title{
+	text-align: center;
 	margin-top: 10%;
 }
 
 .name {
-	font-size: 5em;
+	font-size: 6em;
 	font-family: 'Pacifico', 'cursive';
 	color: #00ffff;
 }
@@ -48,7 +35,7 @@ body, *{
 
 .navbar {
 	margin-bottom: 0px;	
-	margin-top: 0px;
+	margin-top: -2em;
 }
 
 .nav-item {
@@ -58,8 +45,56 @@ body, *{
 
 .content {
 	text-align: center;
-	padding: 20%;
+	padding: 10%;
 }
+
+.heading {
+	margin-bottom: 0.5em;
+	font-family: 'Pacifico', 'cursive';
+	font-size: 4em;
+}
+
+.info {
+	font-size: 1.1em;
+}
+
+li{
+	list-style-type: none
+}
+.project-tile {
+	border: 1px solid black;
+	text-align: center;
+}
+
+.project-tile:hover {
+	cursor: pointer;
+	background: #ddd;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+
+}
+.grid-item {
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  border: 1px solid blue;
+}
+
+footer {
+	padding: 2%;
+	text-align: center;
+	background: #ddd;
+}
+
+
+
+
+
+
 
 /** Scroll Bar */
 
@@ -83,14 +118,4 @@ body, *{
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
     background: #0cc; 
-}
-
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-
-.sticky + .content {
-  padding-top: 60px;
 }

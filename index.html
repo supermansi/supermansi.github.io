@@ -9,11 +9,12 @@
 
 
 		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="css/animate.css">
 		<link rel="javascript" type="text/js" href="js/main.js">
 
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
-		<link href="https://fonts.googleapis.com/css?family=Merriweather|Open+Sans|Pacifico|Poppins" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Pacifico|Poppins" rel="stylesheet">
 
 
 	</head>
@@ -25,33 +26,32 @@
 		<header id="header">
 			<div class="jumbotron jumbotron-fluid">
 				<div class="container title">
-					  <p class="name">Mansi Jain</p>
-					  <p class="subtitle">CS Grad Student with a keen interest in Computer Vision</p>
+					  <p class="name animated bounceInDown">Mansi Jain</p>
+					  <p class="subtitle animated bounceInUp">CS Grad Student | CV/ML | Full Stack Web Developer</p>
 				</div>
-				<a href="#about"><i class="fa fa-chevron-circle-down arrow" id="arrow"></i>	</a>
+				<a href="#about"><i class="fa fa-chevron-circle-down arrow animated bounceInUp" id="arrow" onmouseover="bounceArrow()"></i>	</a>
 			</div>
 		</header>
 
-		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+		<!-- Navigation -->
+
+		<nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
 
 			<a class="navbar-brand" href="#">Mansi Jain</a>
 
 			<div class="collapse navbar-collapse" id="navbar">
 			    <ul class="navbar-nav mr-auto">
 			      <li class="nav-item active">
-			        <a class="nav-link" href="#">Home</a>
+			        <a class="nav-link test" href="#">Home</a>
 			      </li>
 			      <li class="nav-item">
 			        <a class="nav-link" href="#about">About</a>
 			      </li>
 			      <li class="nav-item">
-			        <a class="nav-link" href="#work">Work</a>
-			      </li>
-			      <li class="nav-item">
 			        <a class="nav-link" href="#projects">Projects</a>
 			      </li>
 			      <li class="nav-item">
-			        <a class="nav-link" href="#resume">Resume</a>
+			        <a class="nav-link" href="https://drive.google.com/file/d/1Nj1TGuhvLpVSXCsHi_014VdrVB-7g-5_/view?usp=sharing" target="_blank">Resume</a>
 			      </li>
 			      <li class="nav-item">
 			        <a class="nav-link" href="#contact">Contact</a>
@@ -62,25 +62,29 @@
 		</nav>
 
 		<!-- About -->
+
 		<div id="about" class="">
 			<div class="container">
 
 				<div class="content">
-					<p>Hi, I'm Mansi Jain, a CS grad student at Northeastern University, Boston, MA.</p>
+
+					<h1 class="heading"> About </h1>
+
+					<p class="info">Hi, I'm Mansi Jain, a CS grad student at <a href="https://northeastern.edu" target="_blank" class="tag">Northeastern University</a>, Boston, MA. I graduated with a Bachelor of Engineering in Information Technology from University of Mumbai, India in 2013. Along with pursuing my Masters degree, I like to tinker around in the field of Computer Vision and solve <a href="https://github.com/supermansi/SPOJ" target="_blank" class="tag">algorithmic questions</a>. I am an avid reader, keyboard player(pun intended) and sudoko solver. Thank you for stopping by and feel free to reach out!</p>
+
+					<p class="info">As an undergraduate student, I interned at the following companies:</p>
+					<ul>
+						<li class="info">Summer Trainee - <a href="https://airindia.in" target="_blank" class="tag">Air India</a> (May 2016 - June 2016) <br> 
+							Redeveloped two web portals by migrating from JRUN to Glassfish application server
+						</li>
+						<li class="info">Full Stack Web Developer - <a href="https://riidl.org" target="_blank" class="tag">RiiDL Somaiya</a> (June 2015 - November 2015) <br>
+							 Set up and maintained the blog of a start-up for salon aggregation using Wordpress, PHP and SQL 
+							<br> Involved in wireframing, prototyping, and conceptualization of the website
+						</li>
+					</ul>
+
 				</div>
 
-			</div>
-		</div>
-
-
-		<!-- Work -->
-
-		<div id="work" class="">
-			<div class="container">
-
-				<div class="content">
-					<p> Timeline for internships at Air India and RiiDL</p>
-				</div>
 			</div>
 		</div>
 
@@ -91,8 +95,110 @@
 			<div class="container">
 
 				<div class="content">
-					<p> Modals with Projects. <br> Do Something, yo!</p>
+
+					<h1 class="heading" id="projects">Projects</h1>		
+
+					<div class="grid-container">
+
+						<div class="grid-item">
+
+							<div class="project-tile" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+							  Ray Tracer
+							</div>
+
+							<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+							  <div class="modal-dialog modal-dialog-centered" role="document">
+							    <div class="modal-content">
+							      Made a ray tracer from scratch in C++ and OpenGL and compard images of the 2. <br>
+							  		Using: OpenGL, C++
+							    </div>
+							  </div>
+							</div>
+						</div>
+
+						<div class="grid-item">
+
+							<div class="project-tile" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+							  FingerTip Recognition <br>
+							  Using: OpenCV, Python
+							</div>
+
+							<div class="modal fade" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+							  <div class="modal-dialog modal-dialog-centered" role="document">
+							    <div class="modal-content">
+							      Wrote a python script to identify the number indicated by the user's hand.
+							    </div>
+							  </div>
+							</div>
+						</div>
+
+						<div class="grid-item">
+
+							<div class="project-tile" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+							  ChandlerBot
+							</div>
+
+							<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+							  <div class="modal-dialog modal-dialog-centered" role="document">
+							    <div class="modal-content">
+							      Automated Chandler Bing's sarcastic replies.<br>
+							  Using: TwitterAPI, Python
+							    </div>
+							  </div>
+							</div>
+						</div>
+
+						<div class="grid-item">
+
+							<div class="project-tile" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+							  Launch demo modal
+							</div>
+
+							<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+							  <div class="modal-dialog modal-dialog-centered" role="document">
+							    <div class="modal-content">
+							      Maybe this is all I need. LOL.
+							    </div>
+							  </div>
+							</div>
+						</div>
+
+						<div class="grid-item">
+
+							<div class="project-tile" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+							  Launch demo modal
+							</div>
+
+							<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+							  <div class="modal-dialog modal-dialog-centered" role="document">
+							    <div class="modal-content">
+							      Maybe this is all I need. LOL.
+							    </div>
+							  </div>
+							</div>
+						</div>
+
+																		<div class="grid-item">
+
+							<div class="project-tile" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+							  Launch demo modal
+							</div>
+
+							<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+							  <div class="modal-dialog modal-dialog-centered" role="document">
+							    <div class="modal-content">
+							      Maybe this is all I need. LOL.
+							    </div>
+							  </div>
+							</div>
+						</div>
+
+
+					</div>	
+
 				</div>
+
+
 			</div>
 		</div>
 
@@ -103,24 +209,38 @@
 			<div class="container">
 
 				<div class="content">
+
+					<h1 class="heading">Contact</h1>
+
 					<p>Contact Info</p>
+
+
+					<p>As an undergraduate student, I interned at the following companies:</p>
+					<ul>
+						<li>Summer Trainee - Air India (May 2016 - June 2016) <br> 
+							Redeveloped two web portals by migrating from JRUN to Glassfish application server
+						</li>
+						<li>Full Stack Web Developer - RiiDL Somaiya (June 2015 - November 2015) <br>
+							 Set up and maintained the blog of a start-up for salon aggregation using Wordpress, PHP and SQL 
+							<br> Involved in wireframing, prototyping, and conceptualization of the website
+						</li>
+					</ul>
 				</div>
 			</div>
 		</div>
 
-		<script>
-		window.onscroll = function() {myFunction()};
+		<!-- Footer -->
 
-		var navbar = document.getElementById("navbar");
-		var sticky = navbar.offsetTop;
+		<footer>
+			Mansi Jain | Boston, MA | LinkedIn | Github | Facebook
+		</footer>
 
-		function myFunction() {
-		  if (window.pageYOffset >= sticky) {
-		    navbar.classList.add("sticky")
-		  } else {
-		    navbar.classList.remove("sticky");
-		  }
-		}
+		<script type="text/javascript">
+			function bounceArrow(){
+				document.getElementById('arrow')
+			}
+
+			
 		</script>
 
 
