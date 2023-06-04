@@ -256,6 +256,12 @@ a:hover {
   display: block;
 }
 
+.work-ex-logo {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+
 /*------/ Owl Carousel /------*/
 .owl-theme .owl-dots {
   text-align: center;
@@ -782,11 +788,18 @@ a:hover {
 
 .service-box .ico-circle {
   transition: all 500ms ease;
-  font-size: 4rem;
+  /* font-size: 4rem; */
 }
 
 .service-box .s-title {
   font-size: 1.4rem;
+  text-transform: uppercase;
+  text-align: center;
+  padding: .4rem 0;
+}
+
+.service-box .s-subtitle {
+  font-size: 1.0rem;
   text-transform: uppercase;
   text-align: center;
   padding: .4rem 0;
